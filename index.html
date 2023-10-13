@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>form 2</title>
+
+    <style >
+        #one:hover{
+            background-color: blueviolet;
+        }
+        body{
+            background-color : rgb(0, 255, 225);
+        }
+        fieldset{
+            color:rgb(60, 20, 220);
+            background-color:rgb(248, 255, 220);
+            border: 2xp solid rgb(0, 255, 162);
+            border-radius: 5%;
+            width: 40%;
+
+        }
+
+    </style>
+        
+    
+        
+        
+        
+    </head>
+    
+<body>
+    <center>
+    <form action="message1.html">
+        <fieldset style="text-align: left;" > 
+            <legend style="color: black;"><h1 >Personal Details</h1></legend>
+
+            <label for="Sal">Salutation</label>
+            &nbsp;
+            &nbsp;
+
+        <br><br>
+        <select name="Sal" id="Sal">
+            <option value="--None--.">--None--.</option>
+
+            <option value="Mr.">Mr.</option>
+            <option value="Mrs.">Mrs.</option>
+
+
+
+
+
+        </select>
+
+        <br><br>
+
+        <label for="fname">First Name </label>
+        &nbsp;
+        &nbsp;
+
+
+        <input type="text" id="fname"  name="fname" pattern="[A-Z a-z]{3,7}">
+        
+         <br><br>
+
+        <label for="mname">Middle Name</label>
+        &nbsp;
+
+
+        <input type="text" id="mname"  name="mname" >
+        <br><br>
+
+
+        <label for="Lname">Last Name</label>
+        &nbsp;
+        &nbsp;
+        &nbsp;
+
+
+        <input type="text" id="Lname"  name="Lname">
+        <br><br>
+
+
+
+        <label for="email">Email</label>
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+
+      <input type="email" id="email"  name="email" >
+
+
+        <br><br>
+
+
+        <label for="dob">DOB</label>
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+
+
+
+
+
+        <input type="date" id="dob"  name="dob">
+    
+        
+
+        </fieldset>
+         
+
+             
+        <fieldset style="text-align: left;" >
+            
+            <legend style="color: black;" ><h1 >Educational Details</h1></legend>
+            <label for="">Department</label>
+            <br><br>
+
+            <input type="radio" id="CS" name="dept">
+            <label for="cs">CS</label>
+
+            <input type="radio" id="EC" name="dept">
+            <label for="Ec">EC</label>
+
+            <input type="radio" id="civil" name="dept">
+            <label for="civil">CIVIL</label>
+            <br><br>
+
+            <label for="yop">YOG</label>
+            <input list="yog" id="yop" name="yop">
+            <datalist id="yog">
+                <option >2018</option>
+                <option >2019</option>
+                <option >2020</option>
+                <option >2021</option>
+                <option >2022</option>
+                <option >2023</option>
+
+                </datalist>
+                <br><br>
+
+                <label for="">Skills</label>
+                <br><br>
+                <input type="checkbox" id="Html" name="skill">
+                <label for="html">HTML</label>
+                <br><br>
+
+
+                <input type="checkbox" id="Css" name="skill">
+                <label for="css">CSS</label>
+                <br><br>
+
+
+                <input type="checkbox" id="Java" name="skill">
+                <label for="java">JAVA</label>
+            
+ </fieldset>
+        <br>
+        <input type="submit" id="one">
+ </form>
+</center>
+</body>
+
+</html>
